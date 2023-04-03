@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>[ Browser ].Exist</Name>
+    <Description>"Object does not exist"</Description>
+    <StartTime>2023-03-31 11:12:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object does not exist"]]></OperationData>
+      </TestObject>
+      <IconKey>b9e682196734452eb71c676ef3065383</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\5e7a66a9-20a9-49cd-95f2-f9219379ffa1.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",3</Name>
+    <StartTime>2023-03-31 11:12:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>22afa35a9ed7438cb1149835ba4a61e6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\9548784d-d276-4d04-bf1a-17e745636312.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ New Tab ].ClearCache</Name>
+    <Description />
+    <StartTime>2023-03-31 11:12:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ New Tab ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>ClearCache</Operation>
+      </TestObject>
+      <IconKey>b9e682196734452eb71c676ef3065383</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\ce7920d1-e3de-48b5-972f-82ab204ec2ce.jpeg" highlight="0,0,1920,1168" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ New Tab ].Navigate</Name>
+    <Description>Navigate to http://advantageonlineshopping.com/#/&lt;br&gt;Target Frame: _top&lt;br&gt;Post Data: &lt;br&gt;HTTP Headers: </Description>
+    <StartTime>2023-03-31 11:12:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ New Tab ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Navigate</Operation>
+        <OperationData><![CDATA[Navigate to http://advantageonlineshopping.com/#/<br>Target Frame: _top<br>Post Data: <br>HTTP Headers: ]]></OperationData>
+      </TestObject>
+      <IconKey>b9e682196734452eb71c676ef3065383</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\317c06c7-e4f7-49db-ac68-d97947586a61.jpeg" highlight="0,0,1920,1168" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ New Tab ].Maximize</Name>
+    <Description />
+    <StartTime>2023-03-31 11:12:14</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ New Tab ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Maximize</Operation>
+      </TestObject>
+      <IconKey>b9e682196734452eb71c676ef3065383</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\d0d53a37-4075-4d19-bfb2-fb13a54a2ac3.jpeg" highlight="0,0,1920,1168" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Advantage Shopping ].Sync</Name>
+    <Description />
+    <StartTime>2023-03-31 11:12:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Advantage Shopping ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+      </TestObject>
+      <IconKey>b9e682196734452eb71c676ef3065383</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\9e11d726-c2b7-478e-8d3c-4f5b8f1057d1.jpeg" highlight="0,0,1920,1168" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil.SetContext</Name>
+    <Description>Set context Browser("[ Advantage Shopping ]") for AIUtil</Description>
+    <StartTime>2023-03-31 11:12:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>AIUtil</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\128e1d95-e1c7-4c9a-b974-69411fb5b60b.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("profile", micAnyText, micFromBottom, 1).Click</Name>
+    <Description />
+    <StartTime>2023-03-31 11:12:19</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <Tooltip>AIUtil("profile", micAnyText, micFromBottom, 1)</Tooltip>
+      <AIInfo>
+        <AIMatchScore>86.69</AIMatchScore>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Advantage Shopping ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("profile", micAnyText, micFromBottom, 1)]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[locator_data]]></Name>
+            <Value><![CDATA[1]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[locator]]></Name>
+            <Value><![CDATA[FromBottom]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[profile]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>f5574c6c1465490fbdfcdddcf6c52f5d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\45e5d310-7e74-442a-afbc-ae69467f2cab.jpeg" highlight="1762,16,27,30" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>AIUtil("input", "Username").Type</Name>
+    <ErrorText>Cannot identify the object "AIUtil("input", "Username")".
+</ErrorText>
+    <Description>Cannot&amp;nbsp;identify&amp;nbsp;the&amp;nbsp;object&amp;nbsp;"AIUtil("input",&amp;nbsp;"Username")".&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Text = Username&lt;br&gt;control_class = input&lt;br&gt;</Description>
+    <StartTime>2023-03-31 11:13:23</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[AIUtil("input", "Username").Type "admin"]]></Scripts>
+          <LineNo><![CDATA[20]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <Tooltip>AIUtil("input", "Username")</Tooltip>
+      <AIInfo>
+        <AIMatchScore>0.00</AIMatchScore>
+        <AIAutoscrollAttempts>2</AIAutoscrollAttempts>
+        <AIAutoscrollDirection>down</AIAutoscrollDirection>
+        <AITextMatchMethod>micAIMatch</AITextMatchMethod>
+      </AIInfo>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Advantage Shopping ]]]></Name>
+          </Object>
+          <Object>
+            <Type>AIObject</Type>
+            <Name><![CDATA[AIUtil("input", "Username")]]></Name>
+          </Object>
+        </Path>
+        <Operation>Type</Operation>
+        <OperationData><![CDATA["admin"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Username]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[control_class]]></Name>
+            <Value><![CDATA[input]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>f5574c6c1465490fbdfcdddcf6c52f5d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\354c8113-556a-49d2-9250-c09094b9b36b.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2023-03-31 11:13:31</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>1a576541faa34a089abf15d306730266</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\7d0f1978-35ec-4edf-981d-a31757a48f75.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2023-03-31 11:12:08</StartTime>
+    <Duration>83</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>847fb67332d64d0d8650340095a3710c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2023-03-31 11:12:08</StartTime>
+    <Duration>83</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>27939e11023e46279c30195cb99b54fa</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AOS Web Checkout</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2022</ToolVersion>
+    <ToolVersionStringLiteral>2022</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2023-03-31 11:12:07</StartTime>
+    <Duration>84</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>bca28c730ec64599833727fc7d6b7e6c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>00:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>demo</User>
+      <CpuInfo>12th Gen Intel(R) Core(TM) i7-12800H</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8191</TotalMemory>
+      <HostName>NIMBUSCLIENT</HostName>
+      <OSInfo>Windows Server 2019 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2023-03-31 11:12:07</RunStartTime>
+    <Timezone>00:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2022</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2022</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
