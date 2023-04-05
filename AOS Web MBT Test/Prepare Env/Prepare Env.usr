@@ -39,13 +39,20 @@ AgGrid=
 AI=
 ASPAjax=
 Database=
+Dojo=
+ExtJS=
 File Content=
+GWT=
 Insight=
+jQueryUI=
+Salesforce Lightning=
+SiebelOpenUI=
 Windows Applications=
 TEA=
 UIGrid=
 Web=
 XML=
+YahooUI=
 
 [ExtraFiles]
 Test.tsp=

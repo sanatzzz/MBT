@@ -13,5 +13,7 @@ AppContext.Navigate URL		'Navigate to the application URL
 AppContext.Maximize			'Maximize the application to give the best chance that the fields will be visible on the screen
 AppContext.Sync				'Wait for the browser to stop spinning
 
+
 'Login
 AIUtil.SetContext Browser("creationtime:=0")
+
