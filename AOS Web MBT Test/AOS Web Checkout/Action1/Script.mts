@@ -1,5 +1,6 @@
 ﻿
 'Checkout
+wait 5
 AIUtil("shopping_cart").Click
 'AIUtil("button", "CHECKOUT ($1,009.00)").Click
 AIUtil("button", "CHECKOUT ($2,018.00)").Click
