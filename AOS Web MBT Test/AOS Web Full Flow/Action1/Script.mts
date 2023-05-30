@@ -15,12 +15,15 @@ AppContext.Sync				'Wait for the browser to stop spinning
 
 'Login
 AIUtil.SetContext Browser("creationtime:=0")
-AIUtil("profile", micAnyText, micFromBottom, 1).Click
+wait 4
+AIUtil("profile", micAnyText, micWithAnchorBelow, AIUtil("shopping_cart")).Click
 wait 4
 AIUtil("input", "Username").Highlight
 AIUtil("input", "Username").Type "admin"
+Set WshShell = CreateObject("WScript.Shell")
+WshShell.SendKeys "{ESCAPE}"
 AIUtil("input", "Password").Type "adm1n"
-AIUtil.FindTextBlock("SIGN IN").Click
+AIUtil.FindTextBlock("SIGN IN").Click @@ script infofile_;_ZIP::ssf1.xml_;_
 
 'Add to Cart
 AIUtil.FindTextBlock("TABLETS").Click
