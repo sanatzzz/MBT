@@ -1,7 +1,7 @@
 ﻿
 'Checkout
-wait 5
-AIUtil("shopping_cart").Click
+wait 2
+'AIUtil("shopping_cart").Click
 'AIUtil("button", "CHECKOUT ($1,009.00)").Click
 AIUtil("button", "CHECKOUT ($2,018.00)").Click
 If  Not AIUtil.FindTextBlock("admin", micWithAnchorOnLeft, AIUtil("profile")).Exist Then RunAction "Action1 [AOS Web Login After Add To Cart]", oneIteration End If
